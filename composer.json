@@ -1,0 +1,21 @@
+{
+    "name": "elade/nas-lock",
+    "description": "NASLock: Monitoring System Using Fingerprint-Based RFID Door Lock for NAS Lab",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Elade\\NasLock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elai Sergio",
+            "email": "eladenlomaagathainas@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpoffice/phpspreadsheet": "^3.5"
+    }
+}
